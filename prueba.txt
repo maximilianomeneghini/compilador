@@ -1,0 +1,19 @@
+﻿PROGRAM
+	BEGINDEC
+		dim [s] as [string]
+		dim [x] as [integer]
+	ENDDEC
+
+	x:=0
+
+	GET x
+
+
+	if (x>4) then
+		DISPLAY "A ES MAYOR A 4" */ cte string /*
+	else
+		DISPLAY "A ES MENOR O IGUAL A 4" */ cte string /*
+	endif
+
+
+ENDPROGRAM

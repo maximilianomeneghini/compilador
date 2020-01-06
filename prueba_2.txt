@@ -1,0 +1,40 @@
+﻿PROGRAM
+
+	BEGINDEC
+		dim [a,b,ceta] as [integer, real, string]
+		dim [c] as [real]
+		dim [x,y] as [integer, string]
+	ENDDEC
+
+*/ ASIGNACION /*
+*/ a:=0xA985F */ */ PROBAR CTE HEXA  /*
+*/ a:=0b10010 */ */ PROBAR CTE BIN  /*
+
+a:=2*4 + 5         */ ASIGNACION VARIABLE ENTERA /*
+b:=2.4       */ ASIGNACION CONSTANTE ENTERA /*
+y:="CADENA"  */ ASIGNACION CONSTANTE STRING /*
+b:=20.5      */ ASIGNACION CONSTANTE FLOAT /*
+
+*/ SELECCION SIMPLE /*
+if (a<2) then
+	if (x>4) then
+		a:=3
+	else
+		a:=6
+	endif
+else
+	a:=4
+endif
+
+*/ ITERACION SIMPLE /*
+while (a>=x) do
+	x:=x+1
+	b:=b-2.5
+endwhile
+
+*/ ITERACION ESPECIAL /*
+while a in [2+4, 5-2, 2*3] do
+	x:=x+1
+endwhile
+
+ENDPROGRAM
